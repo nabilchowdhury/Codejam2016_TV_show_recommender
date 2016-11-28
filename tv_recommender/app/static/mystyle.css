@@ -1,0 +1,75 @@
+  body {
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+  	color: rgb(204, 0, 0);
+  	text-align: top left;
+    padding-top: 0.5em;
+  	padding-left: 1em;
+  }
+
+  h3 {
+    color: white;
+    padding-left: 1em;
+    padding-top: 0.5em;
+  }
+
+  h4 {
+    color: white;
+    text-align: center;
+    padding-left: 1em;
+    padding-top: 0.5em;
+  }
+
+  form {
+    background-color: rgb(135, 0, 0);
+    opacity: 0.8;
+    margin-top: 8%;
+    margin-left: 25%;
+    margin-right:25%;
+    margin-bottom: 25px;
+    width: 50%;
+    border: 5px solid;
+    border-radius: 15px 60px;
+    min-width: 380px;
+  }
+
+  label {
+    color: rgb(200,200,200);
+  }
+
+.first {
+  background-color: rgb(135, 0, 0);
+  opacity: 0.8;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right:25%;
+  margin-bottom: 25px;
+  width: 50%;
+  border: 5px solid;
+  border-radius: 15px 60px;
+  min-width: 380px;
+}
+
+.second {
+  background-color: rgb(135, 0, 0);
+  opacity: 0.8;
+  margin-top: 1%;
+  margin-left: 25%;
+  margin-right:25%;
+  margin-bottom: 25px;
+  width: 50%;
+  border: 5px solid;
+  border-radius: 15px 60px;
+  min-width: 380px;
+}
+
+img {
+
+  width: 200px;
+  height:auto;
+
+}

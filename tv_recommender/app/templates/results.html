@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Welcome to Netflix!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/mystyle.css">
+</head>
+
+<body>
+	<header><h1>You should watch...</h1></header><br>
+	<div class="first">
+
+    <font size="5" color="black" style="margin-left: 20px">{{ top_title }}</font><br>
+
+      <div class="row">
+      <div class="col-sm-6">
+      <img src={{ poster }} style="padding-left: 1.5em">
+      </div>
+      <div class="col-sm-6">
+      <font size="5" color="white" style="margin-left: 20px">{{ top_rating }}</font>
+      </div><br><br>
+      </div>
+
+      <font size="5" color="white" style="margin-left: 20px">{{ top_summary }}</font>
+      </div>
+
+
+
+</body>
+
+</html>
